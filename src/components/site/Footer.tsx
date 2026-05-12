@@ -12,21 +12,21 @@ export function Footer() {
         </div>
 
         <nav aria-label="Footer" className="flex flex-col gap-2 md:items-center md:justify-self-center">
-          {[
-            { l: "Work", h: "#work" },
-            { l: "Trades", h: "#trades" },
-            { l: "Process", h: "#process" },
-            { l: "Contact", h: "#contact" },
-            { l: "Join The Crew", h: "#join" },
-          ].map((n) => (
-            
-              key={n.l}
-              href={n.h}
-              className="font-condensed text-sm tracking-[0.15em] text-bone/80 hover:text-ember"
-            >
-              {n.l}
-            </a>
-          ))}
+          <a href="#work" className="font-condensed text-sm tracking-[0.15em] text-bone/80 hover:text-ember">
+            Work
+          </a>
+          <a href="#trades" className="font-condensed text-sm tracking-[0.15em] text-bone/80 hover:text-ember">
+            Trades
+          </a>
+          <a href="#process" className="font-condensed text-sm tracking-[0.15em] text-bone/80 hover:text-ember">
+            Process
+          </a>
+          <a href="#contact" className="font-condensed text-sm tracking-[0.15em] text-bone/80 hover:text-ember">
+            Contact
+          </a>
+          <a href="#join" className="font-condensed text-sm tracking-[0.15em] text-bone/80 hover:text-ember">
+            Join The Crew
+          </a>
         </nav>
 
         <div className="space-y-2 text-sm text-bone/70 md:justify-self-end md:text-right">
