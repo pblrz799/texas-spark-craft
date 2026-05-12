@@ -1,5 +1,5 @@
-const FORM_ENDPOINT_CLIENT = "https://formsubmit.co/PLACEHOLDER_EMAIL";
-const FORM_ENDPOINT_WORKER = "https://formsubmit.co/PLACEHOLDER_EMAIL";
+const FORM_ENDPOINT_CLIENT = "https://formsubmit.co/info@onfiretrades.com";
+const FORM_ENDPOINT_WORKER = "https://formsubmit.co/info@onfiretrades.com";
 
 const inputCls =
   "w-full bg-transparent border-b border-white/20 px-0 py-3 text-bone placeholder:text-bone/40 focus:border-current focus:outline-none transition";
